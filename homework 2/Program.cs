@@ -1,5 +1,5 @@
 ﻿int result;
-int num = new Random().Next(1,65536);
+int num = new Random().Next(1,65537);
 if (num > 99)
 {
     result = num % 10;
